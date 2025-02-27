@@ -124,13 +124,21 @@ class PPOTrainer:
 
         if self.discrete:  # Please use categorical distribution.
             logits, values = self.model(obs)
-            pass
+
+            dist = torch.distributions.Categorical(logits = logits)
+            
+            actions = dist.sample()
+            action_log_probs = dist.log_prob(actions)
 
             actions = actions.view(-1, 1)  # In discrete case only return the chosen action.
 
         else:  # Please use normal distribution.
             means, log_std, values = self.model(obs)
-            pass
+
+            dist = torch.distributions.Normal(means, torch.exp(log_std))
+
+            actions = dist.sample()
+            action_log_probs = dist.log_prob(actions).sum(-1)
 
             actions = actions.view(-1, self.num_actions)
 
@@ -150,16 +158,16 @@ class PPOTrainer:
         if self.discrete:
             assert not torch.is_floating_point(act)
             logits, values = self.model(obs)
-            action_log_probs = None
-            dist_entropy = None
-            pass
+            dist = torch.distributions.Categorical(logits = logits)
+            action_log_probs = dist.log_prob(act.squeeze())
+            dist_entropy = dist.entropy()
 
         else:
             assert torch.is_floating_point(act)
             means, log_std, values = self.model(obs)
-            action_log_probs = None
-            dist_entropy = None
-            pass
+            dist = torch.distributions.Normal(means, torch.exp(log_std))
+            action_log_probs = dist.log_prob(act).sum(-1)
+            dist_entropy = dist.entropy().sum(-1)
 
         values = values.view(-1, 1)
         action_log_probs = action_log_probs.view(-1, 1)
@@ -206,20 +214,25 @@ class PPOTrainer:
         values, action_log_probs, dist_entropy = self.evaluate_actions(observations_batch, actions_batch)
 
         assert values.shape == (self.mini_batch_size, 1)
+        #raise ValueError (str(action_log_probs.shape) + " " + str((self.mini_batch_size, 1)))
         assert action_log_probs.shape == (self.mini_batch_size, 1)
         assert values.requires_grad
         assert action_log_probs.requires_grad
         assert dist_entropy.requires_grad
 
         # TODO: Implement policy loss
-        policy_loss = None
-        ratio = None  # The importance sampling factor, the ratio of new policy prob over old policy prob
-        pass
+        ratio = torch.exp(action_log_probs) / \
+                torch.exp(old_action_log_probs_batch)
+        # The importance sampling factor, the ratio of new policy prob over old policy prob
+        
+        vanilla = ratio * adv_targ
+        clamped = torch.clamp(ratio, 1.0 - self.clip_param, 1.0 + self.clip_param) * adv_targ
+
+        policy_loss = -torch.min(vanilla, clamped).mean()
+        policy_loss_mean = policy_loss.mean()
 
         # TODO: Implement value loss
-        # value_loss = None
-        pass
-
+        value_loss = F.mse_loss(values, return_batch)
         value_loss_mean = value_loss.mean()
 
         # This is the total loss

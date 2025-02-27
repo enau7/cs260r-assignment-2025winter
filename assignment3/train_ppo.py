@@ -130,6 +130,7 @@ if __name__ == '__main__':
                         values, actions, action_log_prob = \
                             trainer.compute_action(trainer.rollouts.observations[index])
 
+                    #raise ValueError (str(action_log_prob.shape) + " " + str((num_envs, 1)))
                     assert values.shape == (num_envs, 1)
                     assert action_log_prob.shape == (num_envs, 1)
 
