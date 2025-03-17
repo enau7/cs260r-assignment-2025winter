@@ -1,0 +1,16 @@
+{"time":"2025-03-16T17:32:02.2274487-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\wandb\\run-20250316_173202-ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\logs\\debug-core.log"}
+{"time":"2025-03-16T17:32:02.492008-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3"}
+{"time":"2025-03-16T17:32:02.4925079-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3"}
+{"time":"2025-03-16T17:32:02.4925079-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3"}
+{"time":"2025-03-16T17:32:02.4925079-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3"}
+{"time":"2025-03-16T17:32:02.4925079-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3"}
+{"time":"2025-03-16T17:32:02.7231602-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T17:32:02.9640055-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T17:32:02.9700409-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T17:32:04.2868628-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T17:32:04.292336-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T17:32:04.2931746-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T17:32:04.298173-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T17:32:14.8453942-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-16T17:32:14.8483961-07:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\Colton\\Documents\\GitHub\\cs260r-assignment-2025winter\\mini_project\\runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\ppo_metadrive_1\\events.out.tfevents.1742171524.enaut-PC.15436.0","symlink":"runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\wandb\\run-20250316_173202-ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\files\\runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\ppo_metadrive_1\\events.out.tfevents.1742171524.enaut-PC.15436.0","error":"symlink C:\\Users\\Colton\\Documents\\GitHub\\cs260r-assignment-2025winter\\mini_project\\runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\ppo_metadrive_1\\events.out.tfevents.1742171524.enaut-PC.15436.0 runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\wandb\\run-20250316_173202-ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\files\\runs\\ppo_metadrive\\ppo_metadrive_2025-03-16_17-29-24_4f9e3eb3\\ppo_metadrive_1\\events.out.tfevents.1742171524.enaut-PC.15436.0: A required privilege is not held by the client."}
+{"time":"2025-03-16T17:34:26.4522899-07:00","level":"INFO","msg":"Pausing system monitor"}
