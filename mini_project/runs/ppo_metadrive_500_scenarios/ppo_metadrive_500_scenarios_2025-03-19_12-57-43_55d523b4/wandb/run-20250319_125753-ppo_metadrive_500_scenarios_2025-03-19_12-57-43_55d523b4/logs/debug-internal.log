@@ -1,0 +1,14 @@
+{"time":"2025-03-19T12:57:53.935589-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_500_scenarios\\ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4\\wandb\\run-20250319_125753-ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4\\logs\\debug-core.log"}
+{"time":"2025-03-19T12:57:54.0452857-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4"}
+{"time":"2025-03-19T12:57:54.0452857-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4"}
+{"time":"2025-03-19T12:57:54.0452857-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4"}
+{"time":"2025-03-19T12:57:54.0452857-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4"}
+{"time":"2025-03-19T12:57:54.0452857-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_500_scenarios_2025-03-19_12-57-43_55d523b4"}
+{"time":"2025-03-19T12:57:54.2980538-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T12:57:54.5045775-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:57:54.5110693-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:57:55.5512498-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:57:55.5571507-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:57:55.5581673-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:57:55.5658431-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:58:06.1192644-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

@@ -1,0 +1,17 @@
+{"time":"2025-03-19T12:18:12.4976769-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_10_scenarios\\ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c\\wandb\\run-20250319_121812-ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c\\logs\\debug-core.log"}
+{"time":"2025-03-19T12:18:12.6071413-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c"}
+{"time":"2025-03-19T12:18:12.6071413-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c"}
+{"time":"2025-03-19T12:18:12.6071413-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c"}
+{"time":"2025-03-19T12:18:12.6071413-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c"}
+{"time":"2025-03-19T12:18:12.6071413-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_10_scenarios_2025-03-19_12-18-01_c4e7621c"}
+{"time":"2025-03-19T12:18:12.8543132-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T12:18:13.0945735-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:18:13.1001429-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:18:14.1553931-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:18:14.1618666-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:18:14.1631804-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:18:14.1693866-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:18:24.7027502-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-19T12:39:37.0582712-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T12:57:19.3654262-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T12:57:19.3716665-07:00","level":"INFO","msg":"Pausing system monitor"}

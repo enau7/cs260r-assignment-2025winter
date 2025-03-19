@@ -1,0 +1,16 @@
+Using cpu device
+c:\Users\Colton\anaconda3\envs\cs260r\Lib\site-packages\stable_baselines3\ppo\ppo.py:155: UserWarning: You have specified a mini-batch size of 256, but because the `RolloutBuffer` is of size `n_steps * n_envs = 5000`, after every 19 untruncated mini-batches, there will be a truncated mini-batch of size 136
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=500 and n_envs=10)
+  warnings.warn(
+Logging to runs\ppo_metadrive_10_scenarios\ppo_metadrive_10_scenarios_2025-03-18_18-49-32_fad4e8cd\ppo_metadrive_10_scenarios_1
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 319      |
+|    ep_rew_mean     | -1.09    |
+| time/              |          |
+|    fps             | 1262     |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 5000     |
+---------------------------------

@@ -1,0 +1,15 @@
+{"time":"2025-03-18T16:25:01.1349397-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\wandb\\run-20250318_162501-sac_metadrive_2025-03-18_16-24-50_2dd4b318\\logs\\debug-core.log"}
+{"time":"2025-03-18T16:25:01.373101-07:00","level":"INFO","msg":"created new stream","id":"sac_metadrive_2025-03-18_16-24-50_2dd4b318"}
+{"time":"2025-03-18T16:25:01.373101-07:00","level":"INFO","msg":"stream: started","id":"sac_metadrive_2025-03-18_16-24-50_2dd4b318"}
+{"time":"2025-03-18T16:25:01.373101-07:00","level":"INFO","msg":"handler: started","stream_id":"sac_metadrive_2025-03-18_16-24-50_2dd4b318"}
+{"time":"2025-03-18T16:25:01.373101-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"sac_metadrive_2025-03-18_16-24-50_2dd4b318"}
+{"time":"2025-03-18T16:25:01.3736377-07:00","level":"INFO","msg":"sender: started","stream_id":"sac_metadrive_2025-03-18_16-24-50_2dd4b318"}
+{"time":"2025-03-18T16:25:01.5594601-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-18T16:25:01.7764692-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-18T16:25:01.7827101-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-18T16:25:03.0187869-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-18T16:25:03.0247891-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-18T16:25:03.0261613-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-18T16:25:03.0329156-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-18T16:25:13.6166583-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-18T16:25:13.6187029-07:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\Colton\\Documents\\GitHub\\cs260r-assignment-2025winter\\mini_project\\runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\sac_metadrive_1\\events.out.tfevents.1742340303.enaut-PC.12608.0","symlink":"runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\wandb\\run-20250318_162501-sac_metadrive_2025-03-18_16-24-50_2dd4b318\\files\\runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\sac_metadrive_1\\events.out.tfevents.1742340303.enaut-PC.12608.0","error":"symlink C:\\Users\\Colton\\Documents\\GitHub\\cs260r-assignment-2025winter\\mini_project\\runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\sac_metadrive_1\\events.out.tfevents.1742340303.enaut-PC.12608.0 runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\wandb\\run-20250318_162501-sac_metadrive_2025-03-18_16-24-50_2dd4b318\\files\\runs\\sac_metadrive\\sac_metadrive_2025-03-18_16-24-50_2dd4b318\\sac_metadrive_1\\events.out.tfevents.1742340303.enaut-PC.12608.0: A required privilege is not held by the client."}
