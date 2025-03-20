@@ -1,0 +1,1838 @@
+Using cpu device
+Logging to runs\ppo_metadrive_new_reward_5000\ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed\ppo_metadrive_new_reward_5000_1
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 370      |
+|    ep_rew_mean     | 1.26     |
+| time/              |          |
+|    fps             | 539      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 5120     |
+---------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0            |
+|    max_step             | 0            |
+|    mean_ep_length       | 190          |
+|    mean_reward          | 44.6         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.03661877   |
+|    route_completion     | 0.143        |
+|    success_rate         | 0            |
+|    total_cost           | 1            |
+| time/                   |              |
+|    total_timesteps      | 10000        |
+| train/                  |              |
+|    approx_kl            | 0.0029434874 |
+|    arrive_dest          | 0            |
+|    clip_fraction        | 0.175        |
+|    clip_range           | 0.1          |
+|    crash                | 0.2          |
+|    entropy_loss         | -2.83        |
+|    explained_variance   | -0.00299     |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.00677      |
+|    max_step             | 0            |
+|    n_updates            | 20           |
+|    out_of_road          | 1            |
+|    policy_gradient_loss | -0.00715     |
+|    route_completion     | 0.168        |
+|    std                  | 0.996        |
+|    total_cost           | 1            |
+|    value_loss           | 0.0408       |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 530      |
+|    ep_rew_mean     | 3.95     |
+| time/              |          |
+|    fps             | 444      |
+|    iterations      | 2        |
+|    time_elapsed    | 23       |
+|    total_timesteps | 10240    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 516          |
+|    ep_rew_mean          | 4.1          |
+| time/                   |              |
+|    fps                  | 553          |
+|    iterations           | 3            |
+|    time_elapsed         | 27           |
+|    total_timesteps      | 15360        |
+| train/                  |              |
+|    approx_kl            | 0.0029326424 |
+|    clip_fraction        | 0.192        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.83        |
+|    explained_variance   | 0.0425       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.0371       |
+|    n_updates            | 40           |
+|    policy_gradient_loss | -0.00731     |
+|    std                  | 0.993        |
+|    value_loss           | 0.0487       |
+------------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0           |
+|    max_step             | 0           |
+|    mean_ep_length       | 98.2        |
+|    mean_reward          | 33.7        |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.06385988  |
+|    route_completion     | 0.13        |
+|    success_rate         | 0           |
+|    total_cost           | 1           |
+| time/                   |             |
+|    total_timesteps      | 20000       |
+| train/                  |             |
+|    approx_kl            | 0.004062801 |
+|    arrive_dest          | 0           |
+|    clip_fraction        | 0.223       |
+|    clip_range           | 0.1         |
+|    crash                | 0.1         |
+|    entropy_loss         | -2.82       |
+|    explained_variance   | 0.0273      |
+|    learning_rate        | 5e-05       |
+|    loss                 | 0.00847     |
+|    max_step             | 0           |
+|    n_updates            | 60          |
+|    out_of_road          | 1           |
+|    policy_gradient_loss | -0.0115     |
+|    route_completion     | 0.169       |
+|    std                  | 0.985       |
+|    total_cost           | 1           |
+|    value_loss           | 0.0402      |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 488      |
+|    ep_rew_mean     | 20.3     |
+| time/              |          |
+|    fps             | 534      |
+|    iterations      | 4        |
+|    time_elapsed    | 38       |
+|    total_timesteps | 20480    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 453          |
+|    ep_rew_mean          | 24.4         |
+| time/                   |              |
+|    fps                  | 574          |
+|    iterations           | 5            |
+|    time_elapsed         | 44           |
+|    total_timesteps      | 25600        |
+| train/                  |              |
+|    approx_kl            | 0.0028497297 |
+|    clip_fraction        | 0.169        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.81        |
+|    explained_variance   | 0.0146       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.479        |
+|    n_updates            | 80           |
+|    policy_gradient_loss | -0.00437     |
+|    std                  | 0.984        |
+|    value_loss           | 0.564        |
+------------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0           |
+|    max_step             | 0           |
+|    mean_ep_length       | 69.8        |
+|    mean_reward          | 27.9        |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.08630424  |
+|    route_completion     | 0.12        |
+|    success_rate         | 0           |
+|    total_cost           | 1           |
+| time/                   |             |
+|    total_timesteps      | 30000       |
+| train/                  |             |
+|    approx_kl            | 0.002722447 |
+|    arrive_dest          | 0           |
+|    clip_fraction        | 0.189       |
+|    clip_range           | 0.1         |
+|    crash                | 0.0667      |
+|    entropy_loss         | -2.8        |
+|    explained_variance   | 0.0225      |
+|    learning_rate        | 5e-05       |
+|    loss                 | 0.0174      |
+|    max_step             | 0           |
+|    n_updates            | 100         |
+|    out_of_road          | 1           |
+|    policy_gradient_loss | -0.00738    |
+|    route_completion     | 0.149       |
+|    std                  | 0.976       |
+|    total_cost           | 1           |
+|    value_loss           | 0.101       |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 456      |
+|    ep_rew_mean     | 21.9     |
+| time/              |          |
+|    fps             | 555      |
+|    iterations      | 6        |
+|    time_elapsed    | 55       |
+|    total_timesteps | 30720    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 431          |
+|    ep_rew_mean          | 20.3         |
+| time/                   |              |
+|    fps                  | 593          |
+|    iterations           | 7            |
+|    time_elapsed         | 60           |
+|    total_timesteps      | 35840        |
+| train/                  |              |
+|    approx_kl            | 0.0031423203 |
+|    clip_fraction        | 0.185        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.78        |
+|    explained_variance   | 0.0334       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.0541       |
+|    n_updates            | 120          |
+|    policy_gradient_loss | -0.00794     |
+|    std                  | 0.968        |
+|    value_loss           | 0.17         |
+------------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0           |
+|    max_step             | 0           |
+|    mean_ep_length       | 54          |
+|    mean_reward          | 21.6        |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.10784243  |
+|    route_completion     | 0.11        |
+|    success_rate         | 0           |
+|    total_cost           | 1           |
+| time/                   |             |
+|    total_timesteps      | 40000       |
+| train/                  |             |
+|    approx_kl            | 0.003284573 |
+|    arrive_dest          | 0           |
+|    clip_fraction        | 0.195       |
+|    clip_range           | 0.1         |
+|    crash                | 0.1         |
+|    entropy_loss         | -2.76       |
+|    explained_variance   | -0.00375    |
+|    learning_rate        | 5e-05       |
+|    loss                 | 0.0459      |
+|    max_step             | 0           |
+|    n_updates            | 140         |
+|    out_of_road          | 1           |
+|    policy_gradient_loss | -0.00796    |
+|    route_completion     | 0.137       |
+|    std                  | 0.958       |
+|    total_cost           | 1           |
+|    value_loss           | 0.158       |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 389      |
+|    ep_rew_mean     | 16.3     |
+| time/              |          |
+|    fps             | 578      |
+|    iterations      | 8        |
+|    time_elapsed    | 70       |
+|    total_timesteps | 40960    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 362          |
+|    ep_rew_mean          | 15.7         |
+| time/                   |              |
+|    fps                  | 453          |
+|    iterations           | 9            |
+|    time_elapsed         | 101          |
+|    total_timesteps      | 46080        |
+| train/                  |              |
+|    approx_kl            | 0.0020756708 |
+|    clip_fraction        | 0.0867       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.74        |
+|    explained_variance   | -2.99e-05    |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.51         |
+|    n_updates            | 160          |
+|    policy_gradient_loss | -0.00249     |
+|    std                  | 0.951        |
+|    value_loss           | 0.797        |
+------------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0           |
+|    max_step             | 0           |
+|    mean_ep_length       | 80          |
+|    mean_reward          | 51.1        |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.13874002  |
+|    route_completion     | 0.118       |
+|    success_rate         | 0           |
+|    total_cost           | 1           |
+| time/                   |             |
+|    total_timesteps      | 50000       |
+| train/                  |             |
+|    approx_kl            | 0.001912397 |
+|    arrive_dest          | 0           |
+|    clip_fraction        | 0.0825      |
+|    clip_range           | 0.1         |
+|    crash                | 0.08        |
+|    entropy_loss         | -2.73       |
+|    explained_variance   | 0.0184      |
+|    learning_rate        | 5e-05       |
+|    loss                 | 0.238       |
+|    max_step             | 0           |
+|    n_updates            | 180         |
+|    out_of_road          | 1           |
+|    policy_gradient_loss | -0.00286    |
+|    route_completion     | 0.137       |
+|    std                  | 0.945       |
+|    total_cost           | 1           |
+|    value_loss           | 0.582       |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 344      |
+|    ep_rew_mean     | 19       |
+| time/              |          |
+|    fps             | 447      |
+|    iterations      | 10       |
+|    time_elapsed    | 114      |
+|    total_timesteps | 51200    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 333          |
+|    ep_rew_mean          | 19.7         |
+| time/                   |              |
+|    fps                  | 464          |
+|    iterations           | 11           |
+|    time_elapsed         | 121          |
+|    total_timesteps      | 56320        |
+| train/                  |              |
+|    approx_kl            | 0.0017535075 |
+|    clip_fraction        | 0.089        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.72        |
+|    explained_variance   | -8.57e-05    |
+|    learning_rate        | 5e-05        |
+|    loss                 | 3.4          |
+|    n_updates            | 200          |
+|    policy_gradient_loss | -0.0021      |
+|    std                  | 0.94         |
+|    value_loss           | 6.63         |
+------------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0           |
+|    max_step             | 0           |
+|    mean_ep_length       | 54.8        |
+|    mean_reward          | 31.6        |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.1572107   |
+|    route_completion     | 0.118       |
+|    success_rate         | 0           |
+|    total_cost           | 1           |
+| time/                   |             |
+|    total_timesteps      | 60000       |
+| train/                  |             |
+|    approx_kl            | 0.002400552 |
+|    arrive_dest          | 0           |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.1         |
+|    crash                | 0.0667      |
+|    entropy_loss         | -2.71       |
+|    explained_variance   | -0.000429   |
+|    learning_rate        | 5e-05       |
+|    loss                 | 0.497       |
+|    max_step             | 0           |
+|    n_updates            | 220         |
+|    out_of_road          | 1           |
+|    policy_gradient_loss | -0.00401    |
+|    route_completion     | 0.128       |
+|    std                  | 0.933       |
+|    total_cost           | 1           |
+|    value_loss           | 1.02        |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 331      |
+|    ep_rew_mean     | 19.7     |
+| time/              |          |
+|    fps             | 457      |
+|    iterations      | 12       |
+|    time_elapsed    | 134      |
+|    total_timesteps | 61440    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 324          |
+|    ep_rew_mean          | 20.4         |
+| time/                   |              |
+|    fps                  | 472          |
+|    iterations           | 13           |
+|    time_elapsed         | 140          |
+|    total_timesteps      | 66560        |
+| train/                  |              |
+|    approx_kl            | 0.0008199307 |
+|    clip_fraction        | 0.0394       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.69        |
+|    explained_variance   | 0.0224       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.659        |
+|    n_updates            | 240          |
+|    policy_gradient_loss | -0.00126     |
+|    std                  | 0.928        |
+|    value_loss           | 2.68         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0            |
+|    max_step             | 0            |
+|    mean_ep_length       | 43.8         |
+|    mean_reward          | 23.1         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.17529945   |
+|    route_completion     | 0.112        |
+|    success_rate         | 0            |
+|    total_cost           | 1            |
+| time/                   |              |
+|    total_timesteps      | 70000        |
+| train/                  |              |
+|    approx_kl            | 0.0025250763 |
+|    arrive_dest          | 0            |
+|    clip_fraction        | 0.133        |
+|    clip_range           | 0.1          |
+|    crash                | 0.0571       |
+|    entropy_loss         | -2.68        |
+|    explained_variance   | 0.0329       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 0.453        |
+|    max_step             | 0            |
+|    n_updates            | 260          |
+|    out_of_road          | 1            |
+|    policy_gradient_loss | -0.0043      |
+|    route_completion     | 0.122        |
+|    std                  | 0.919        |
+|    total_cost           | 1            |
+|    value_loss           | 1.1          |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 302      |
+|    ep_rew_mean     | 21.3     |
+| time/              |          |
+|    fps             | 469      |
+|    iterations      | 14       |
+|    time_elapsed    | 152      |
+|    total_timesteps | 71680    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 281          |
+|    ep_rew_mean          | 22.6         |
+| time/                   |              |
+|    fps                  | 478          |
+|    iterations           | 15           |
+|    time_elapsed         | 160          |
+|    total_timesteps      | 76800        |
+| train/                  |              |
+|    approx_kl            | 0.0026591276 |
+|    clip_fraction        | 0.109        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.66        |
+|    explained_variance   | 0.0435       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 1.39         |
+|    n_updates            | 280          |
+|    policy_gradient_loss | -0.00374     |
+|    std                  | 0.913        |
+|    value_loss           | 2.27         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.1          |
+|    max_step             | 0            |
+|    mean_ep_length       | 69.6         |
+|    mean_reward          | 63.2         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.20372957   |
+|    route_completion     | 0.126        |
+|    success_rate         | 0            |
+|    total_cost           | 1            |
+| time/                   |              |
+|    total_timesteps      | 80000        |
+| train/                  |              |
+|    approx_kl            | 0.0019816845 |
+|    arrive_dest          | 0            |
+|    clip_fraction        | 0.0685       |
+|    clip_range           | 0.1          |
+|    crash                | 0.1          |
+|    entropy_loss         | -2.64        |
+|    explained_variance   | 0.0139       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 1.13         |
+|    max_step             | 0            |
+|    n_updates            | 300          |
+|    out_of_road          | 1            |
+|    policy_gradient_loss | -0.00246     |
+|    route_completion     | 0.13         |
+|    std                  | 0.905        |
+|    total_cost           | 1.02         |
+|    value_loss           | 2.7          |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 245      |
+|    ep_rew_mean     | 20.1     |
+| time/              |          |
+|    fps             | 467      |
+|    iterations      | 16       |
+|    time_elapsed    | 175      |
+|    total_timesteps | 81920    |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 213          |
+|    ep_rew_mean          | 20.3         |
+| time/                   |              |
+|    fps                  | 473          |
+|    iterations           | 17           |
+|    time_elapsed         | 183          |
+|    total_timesteps      | 87040        |
+| train/                  |              |
+|    approx_kl            | 0.0011122333 |
+|    clip_fraction        | 0.0377       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.63        |
+|    explained_variance   | 0.00231      |
+|    learning_rate        | 5e-05        |
+|    loss                 | 2.07         |
+|    n_updates            | 320          |
+|    policy_gradient_loss | -0.00149     |
+|    std                  | 0.9          |
+|    value_loss           | 4.62         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.133        |
+|    max_step             | 0            |
+|    mean_ep_length       | 110          |
+|    mean_reward          | 69.2         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.26124904   |
+|    route_completion     | 0.141        |
+|    success_rate         | 0.1          |
+|    total_cost           | 2.76         |
+| time/                   |              |
+|    total_timesteps      | 90000        |
+| train/                  |              |
+|    approx_kl            | 0.0017518234 |
+|    arrive_dest          | 0.0222       |
+|    clip_fraction        | 0.0903       |
+|    clip_range           | 0.1          |
+|    crash                | 0.0889       |
+|    entropy_loss         | -2.62        |
+|    explained_variance   | -0.000748    |
+|    learning_rate        | 5e-05        |
+|    loss                 | 2.01         |
+|    max_step             | 0            |
+|    n_updates            | 340          |
+|    out_of_road          | 0.978        |
+|    policy_gradient_loss | -0.00349     |
+|    route_completion     | 0.159        |
+|    std                  | 0.894        |
+|    total_cost           | 6.31         |
+|    value_loss           | 4.01         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 186      |
+|    ep_rew_mean     | 25.6     |
+| time/              |          |
+|    fps             | 435      |
+|    iterations      | 18       |
+|    time_elapsed    | 211      |
+|    total_timesteps | 92160    |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 177         |
+|    ep_rew_mean          | 29.5        |
+| time/                   |             |
+|    fps                  | 438         |
+|    iterations           | 19          |
+|    time_elapsed         | 222         |
+|    total_timesteps      | 97280       |
+| train/                  |             |
+|    approx_kl            | 0.001039902 |
+|    clip_fraction        | 0.0271      |
+|    clip_range           | 0.1         |
+|    entropy_loss         | -2.61       |
+|    explained_variance   | -0.0033     |
+|    learning_rate        | 5e-05       |
+|    loss                 | 2.53        |
+|    n_updates            | 360         |
+|    policy_gradient_loss | -0.00138    |
+|    std                  | 0.889       |
+|    value_loss           | 5.59        |
+-----------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.14         |
+|    max_step             | 0            |
+|    mean_ep_length       | 71.4         |
+|    mean_reward          | 68.5         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.28118312   |
+|    route_completion     | 0.15         |
+|    success_rate         | 0            |
+|    total_cost           | 2.8          |
+| time/                   |              |
+|    total_timesteps      | 100000       |
+| train/                  |              |
+|    approx_kl            | 0.0011564782 |
+|    arrive_dest          | 0.02         |
+|    clip_fraction        | 0.0357       |
+|    clip_range           | 0.1          |
+|    crash                | 0.1          |
+|    entropy_loss         | -2.59        |
+|    explained_variance   | 0.000847     |
+|    learning_rate        | 5e-05        |
+|    loss                 | 3.27         |
+|    max_step             | 0            |
+|    n_updates            | 380          |
+|    out_of_road          | 0.98         |
+|    policy_gradient_loss | -0.00173     |
+|    route_completion     | 0.169        |
+|    std                  | 0.882        |
+|    total_cost           | 5.82         |
+|    value_loss           | 7.38         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 183      |
+|    ep_rew_mean     | 34.4     |
+| time/              |          |
+|    fps             | 437      |
+|    iterations      | 20       |
+|    time_elapsed    | 233      |
+|    total_timesteps | 102400   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 177          |
+|    ep_rew_mean          | 36.7         |
+| time/                   |              |
+|    fps                  | 440          |
+|    iterations           | 21           |
+|    time_elapsed         | 244          |
+|    total_timesteps      | 107520       |
+| train/                  |              |
+|    approx_kl            | 0.0018996975 |
+|    clip_fraction        | 0.1          |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.58        |
+|    explained_variance   | -9.17e-05    |
+|    learning_rate        | 5e-05        |
+|    loss                 | 2.53         |
+|    n_updates            | 400          |
+|    policy_gradient_loss | -0.00358     |
+|    std                  | 0.878        |
+|    value_loss           | 7.42         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.127        |
+|    max_step             | 0            |
+|    mean_ep_length       | 110          |
+|    mean_reward          | 75.6         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.32323137   |
+|    route_completion     | 0.162        |
+|    success_rate         | 0.2          |
+|    total_cost           | 4.56         |
+| time/                   |              |
+|    total_timesteps      | 110000       |
+| train/                  |              |
+|    approx_kl            | 0.0011002643 |
+|    arrive_dest          | 0.0545       |
+|    clip_fraction        | 0.024        |
+|    clip_range           | 0.1          |
+|    crash                | 0.145        |
+|    entropy_loss         | -2.57        |
+|    explained_variance   | 0.000485     |
+|    learning_rate        | 5e-05        |
+|    loss                 | 4.6          |
+|    max_step             | 0            |
+|    n_updates            | 420          |
+|    out_of_road          | 0.945        |
+|    policy_gradient_loss | -0.00287     |
+|    route_completion     | 0.211        |
+|    std                  | 0.873        |
+|    total_cost           | 10.3         |
+|    value_loss           | 9.86         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 181      |
+|    ep_rew_mean     | 36.7     |
+| time/              |          |
+|    fps             | 422      |
+|    iterations      | 22       |
+|    time_elapsed    | 266      |
+|    total_timesteps | 112640   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 183          |
+|    ep_rew_mean          | 36.4         |
+| time/                   |              |
+|    fps                  | 427          |
+|    iterations           | 23           |
+|    time_elapsed         | 275          |
+|    total_timesteps      | 117760       |
+| train/                  |              |
+|    approx_kl            | 0.0014210156 |
+|    clip_fraction        | 0.0662       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.56        |
+|    explained_variance   | 0.0012       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 6.96         |
+|    n_updates            | 440          |
+|    policy_gradient_loss | -0.00184     |
+|    std                  | 0.873        |
+|    value_loss           | 13.3         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.117        |
+|    max_step             | 0            |
+|    mean_ep_length       | 96.2         |
+|    mean_reward          | 122          |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.33766264   |
+|    route_completion     | 0.177        |
+|    success_rate         | 0.1          |
+|    total_cost           | 4.4          |
+| time/                   |              |
+|    total_timesteps      | 120000       |
+| train/                  |              |
+|    approx_kl            | 0.0014306338 |
+|    arrive_dest          | 0.0667       |
+|    clip_fraction        | 0.0478       |
+|    clip_range           | 0.1          |
+|    crash                | 0.15         |
+|    entropy_loss         | -2.56        |
+|    explained_variance   | 0.00035      |
+|    learning_rate        | 5e-05        |
+|    loss                 | 3.96         |
+|    max_step             | 0            |
+|    n_updates            | 460          |
+|    out_of_road          | 0.933        |
+|    policy_gradient_loss | -0.00222     |
+|    route_completion     | 0.231        |
+|    std                  | 0.87         |
+|    total_cost           | 10.1         |
+|    value_loss           | 9.11         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 183      |
+|    ep_rew_mean     | 37.4     |
+| time/              |          |
+|    fps             | 419      |
+|    iterations      | 24       |
+|    time_elapsed    | 292      |
+|    total_timesteps | 122880   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 198          |
+|    ep_rew_mean          | 41.1         |
+| time/                   |              |
+|    fps                  | 427          |
+|    iterations           | 25           |
+|    time_elapsed         | 299          |
+|    total_timesteps      | 128000       |
+| train/                  |              |
+|    approx_kl            | 0.0017645424 |
+|    clip_fraction        | 0.0467       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.55        |
+|    explained_variance   | 0.00937      |
+|    learning_rate        | 5e-05        |
+|    loss                 | 5.86         |
+|    n_updates            | 480          |
+|    policy_gradient_loss | -0.00366     |
+|    std                  | 0.865        |
+|    value_loss           | 14.5         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.123        |
+|    max_step             | 0            |
+|    mean_ep_length       | 87.2         |
+|    mean_reward          | 69.6         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.34680942   |
+|    route_completion     | 0.182        |
+|    success_rate         | 0            |
+|    total_cost           | 4.88         |
+| time/                   |              |
+|    total_timesteps      | 130000       |
+| train/                  |              |
+|    approx_kl            | 0.0018741982 |
+|    arrive_dest          | 0.0615       |
+|    clip_fraction        | 0.0759       |
+|    clip_range           | 0.1          |
+|    crash                | 0.138        |
+|    entropy_loss         | -2.54        |
+|    explained_variance   | 0.483        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 4.17         |
+|    max_step             | 0            |
+|    n_updates            | 500          |
+|    out_of_road          | 0.938        |
+|    policy_gradient_loss | -0.00225     |
+|    route_completion     | 0.24         |
+|    std                  | 0.859        |
+|    total_cost           | 9.4          |
+|    value_loss           | 8.56         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 194      |
+|    ep_rew_mean     | 46.8     |
+| time/              |          |
+|    fps             | 421      |
+|    iterations      | 26       |
+|    time_elapsed    | 316      |
+|    total_timesteps | 133120   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 208          |
+|    ep_rew_mean          | 46.8         |
+| time/                   |              |
+|    fps                  | 427          |
+|    iterations           | 27           |
+|    time_elapsed         | 323          |
+|    total_timesteps      | 138240       |
+| train/                  |              |
+|    approx_kl            | 0.0023927179 |
+|    clip_fraction        | 0.142        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.53        |
+|    explained_variance   | 0.285        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 11.7         |
+|    n_updates            | 520          |
+|    policy_gradient_loss | -0.00486     |
+|    std                  | 0.857        |
+|    value_loss           | 24.2         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0            |
+|    crash                | 0.143        |
+|    max_step             | 0            |
+|    mean_ep_length       | 102          |
+|    mean_reward          | 95.7         |
+|    num_episodes         | 5            |
+|    out_of_road          | 1            |
+|    raw_action           | 0.35443065   |
+|    route_completion     | 0.19         |
+|    success_rate         | 0            |
+|    total_cost           | 5.41         |
+| time/                   |              |
+|    total_timesteps      | 140000       |
+| train/                  |              |
+|    approx_kl            | 0.0019883518 |
+|    arrive_dest          | 0.0571       |
+|    clip_fraction        | 0.108        |
+|    clip_range           | 0.1          |
+|    crash                | 0.157        |
+|    entropy_loss         | -2.52        |
+|    explained_variance   | 0.131        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 1.64         |
+|    max_step             | 0            |
+|    n_updates            | 540          |
+|    out_of_road          | 0.943        |
+|    policy_gradient_loss | -0.00335     |
+|    route_completion     | 0.236        |
+|    std                  | 0.851        |
+|    total_cost           | 8.84         |
+|    value_loss           | 7.91         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 210      |
+|    ep_rew_mean     | 50.1     |
+| time/              |          |
+|    fps             | 427      |
+|    iterations      | 28       |
+|    time_elapsed    | 335      |
+|    total_timesteps | 143360   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 228         |
+|    ep_rew_mean          | 54.9        |
+| time/                   |             |
+|    fps                  | 435         |
+|    iterations           | 29          |
+|    time_elapsed         | 341         |
+|    total_timesteps      | 148480      |
+| train/                  |             |
+|    approx_kl            | 0.001703576 |
+|    clip_fraction        | 0.0815      |
+|    clip_range           | 0.1         |
+|    entropy_loss         | -2.5        |
+|    explained_variance   | 0.384       |
+|    learning_rate        | 5e-05       |
+|    loss                 | 5.49        |
+|    n_updates            | 560         |
+|    policy_gradient_loss | -0.00214    |
+|    std                  | 0.842       |
+|    value_loss           | 11          |
+-----------------------------------------
+-----------------------------------------
+| eval/                   |             |
+|    arrive_dest          | 0           |
+|    crash                | 0.133       |
+|    max_step             | 0           |
+|    mean_ep_length       | 128         |
+|    mean_reward          | 164         |
+|    num_episodes         | 5           |
+|    out_of_road          | 1           |
+|    raw_action           | 0.36321327  |
+|    route_completion     | 0.209       |
+|    success_rate         | 0.1         |
+|    total_cost           | 5.44        |
+| time/                   |             |
+|    total_timesteps      | 150000      |
+| train/                  |             |
+|    approx_kl            | 0.001781327 |
+|    arrive_dest          | 0.0667      |
+|    clip_fraction        | 0.0936      |
+|    clip_range           | 0.1         |
+|    crash                | 0.16        |
+|    entropy_loss         | -2.48       |
+|    explained_variance   | 0.298       |
+|    learning_rate        | 5e-05       |
+|    loss                 | 5.96        |
+|    max_step             | 0           |
+|    n_updates            | 580         |
+|    out_of_road          | 0.933       |
+|    policy_gradient_loss | -0.00472    |
+|    route_completion     | 0.246       |
+|    std                  | 0.837       |
+|    total_cost           | 8.36        |
+|    value_loss           | 12.9        |
+-----------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 247      |
+|    ep_rew_mean     | 64.6     |
+| time/              |          |
+|    fps             | 432      |
+|    iterations      | 30       |
+|    time_elapsed    | 355      |
+|    total_timesteps | 153600   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 266          |
+|    ep_rew_mean          | 72           |
+| time/                   |              |
+|    fps                  | 438          |
+|    iterations           | 31           |
+|    time_elapsed         | 361          |
+|    total_timesteps      | 158720       |
+| train/                  |              |
+|    approx_kl            | 0.0006597626 |
+|    clip_fraction        | 0.05         |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.47        |
+|    explained_variance   | -0.0639      |
+|    learning_rate        | 5e-05        |
+|    loss                 | 15.1         |
+|    n_updates            | 600          |
+|    policy_gradient_loss | -0.00177     |
+|    std                  | 0.831        |
+|    value_loss           | 29.4         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0125       |
+|    crash                | 0.138        |
+|    max_step             | 0            |
+|    mean_ep_length       | 155          |
+|    mean_reward          | 129          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.988        |
+|    raw_action           | 0.37921956   |
+|    route_completion     | 0.224        |
+|    success_rate         | 0.2          |
+|    total_cost           | 6.95         |
+| time/                   |              |
+|    total_timesteps      | 160000       |
+| train/                  |              |
+|    approx_kl            | 0.0015492311 |
+|    arrive_dest          | 0.075        |
+|    clip_fraction        | 0.0774       |
+|    clip_range           | 0.1          |
+|    crash                | 0.163        |
+|    entropy_loss         | -2.46        |
+|    explained_variance   | 0.0123       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 6.41         |
+|    max_step             | 0            |
+|    n_updates            | 620          |
+|    out_of_road          | 0.925        |
+|    policy_gradient_loss | -0.00181     |
+|    route_completion     | 0.27         |
+|    std                  | 0.824        |
+|    total_cost           | 8.94         |
+|    value_loss           | 18.8         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 249      |
+|    ep_rew_mean     | 74.9     |
+| time/              |          |
+|    fps             | 432      |
+|    iterations      | 32       |
+|    time_elapsed    | 379      |
+|    total_timesteps | 163840   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 278          |
+|    ep_rew_mean          | 84.5         |
+| time/                   |              |
+|    fps                  | 437          |
+|    iterations           | 33           |
+|    time_elapsed         | 385          |
+|    total_timesteps      | 168960       |
+| train/                  |              |
+|    approx_kl            | 0.0012131493 |
+|    clip_fraction        | 0.0593       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.44        |
+|    explained_variance   | 0.0692       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 17.2         |
+|    n_updates            | 640          |
+|    policy_gradient_loss | -0.00132     |
+|    std                  | 0.821        |
+|    value_loss           | 31.3         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0235       |
+|    crash                | 0.153        |
+|    max_step             | 0            |
+|    mean_ep_length       | 209          |
+|    mean_reward          | 200          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.976        |
+|    raw_action           | 0.38400388   |
+|    route_completion     | 0.243        |
+|    success_rate         | 0.1          |
+|    total_cost           | 9.05         |
+| time/                   |              |
+|    total_timesteps      | 170000       |
+| train/                  |              |
+|    approx_kl            | 0.0019298017 |
+|    arrive_dest          | 0.0706       |
+|    clip_fraction        | 0.0568       |
+|    clip_range           | 0.1          |
+|    crash                | 0.165        |
+|    entropy_loss         | -2.43        |
+|    explained_variance   | 0.0627       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 10.6         |
+|    max_step             | 0            |
+|    n_updates            | 660          |
+|    out_of_road          | 0.929        |
+|    policy_gradient_loss | -0.00277     |
+|    route_completion     | 0.266        |
+|    std                  | 0.816        |
+|    total_cost           | 8.47         |
+|    value_loss           | 26.4         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 261      |
+|    ep_rew_mean     | 87.4     |
+| time/              |          |
+|    fps             | 435      |
+|    iterations      | 34       |
+|    time_elapsed    | 399      |
+|    total_timesteps | 174080   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 271          |
+|    ep_rew_mean          | 95.9         |
+| time/                   |              |
+|    fps                  | 439          |
+|    iterations           | 35           |
+|    time_elapsed         | 407          |
+|    total_timesteps      | 179200       |
+| train/                  |              |
+|    approx_kl            | 0.0012992879 |
+|    clip_fraction        | 0.0601       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.42        |
+|    explained_variance   | 0.0278       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 9.41         |
+|    n_updates            | 680          |
+|    policy_gradient_loss | -0.000933    |
+|    std                  | 0.812        |
+|    value_loss           | 31.5         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0222       |
+|    crash                | 0.167        |
+|    max_step             | 0            |
+|    mean_ep_length       | 146          |
+|    mean_reward          | 123          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.978        |
+|    raw_action           | 0.38930836   |
+|    route_completion     | 0.254        |
+|    success_rate         | 0            |
+|    total_cost           | 9.91         |
+| time/                   |              |
+|    total_timesteps      | 180000       |
+| train/                  |              |
+|    approx_kl            | 0.0018373712 |
+|    arrive_dest          | 0.0667       |
+|    clip_fraction        | 0.0995       |
+|    clip_range           | 0.1          |
+|    crash                | 0.189        |
+|    entropy_loss         | -2.41        |
+|    explained_variance   | 0.123        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 22.6         |
+|    max_step             | 0            |
+|    n_updates            | 700          |
+|    out_of_road          | 0.933        |
+|    policy_gradient_loss | -0.00417     |
+|    route_completion     | 0.273        |
+|    std                  | 0.807        |
+|    total_cost           | 8.56         |
+|    value_loss           | 35           |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 245      |
+|    ep_rew_mean     | 93.6     |
+| time/              |          |
+|    fps             | 435      |
+|    iterations      | 36       |
+|    time_elapsed    | 422      |
+|    total_timesteps | 184320   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 274          |
+|    ep_rew_mean          | 103          |
+| time/                   |              |
+|    fps                  | 439          |
+|    iterations           | 37           |
+|    time_elapsed         | 430          |
+|    total_timesteps      | 189440       |
+| train/                  |              |
+|    approx_kl            | 0.0019937744 |
+|    clip_fraction        | 0.097        |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.4         |
+|    explained_variance   | 0.104        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 15.8         |
+|    n_updates            | 720          |
+|    policy_gradient_loss | -0.0024      |
+|    std                  | 0.803        |
+|    value_loss           | 25.1         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0211       |
+|    crash                | 0.168        |
+|    max_step             | 0            |
+|    mean_ep_length       | 128          |
+|    mean_reward          | 163          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.979        |
+|    raw_action           | 0.3950597    |
+|    route_completion     | 0.266        |
+|    success_rate         | 0            |
+|    total_cost           | 9.68         |
+| time/                   |              |
+|    total_timesteps      | 190000       |
+| train/                  |              |
+|    approx_kl            | 0.0014493243 |
+|    arrive_dest          | 0.0632       |
+|    clip_fraction        | 0.0646       |
+|    clip_range           | 0.1          |
+|    crash                | 0.189        |
+|    entropy_loss         | -2.39        |
+|    explained_variance   | 0.000423     |
+|    learning_rate        | 5e-05        |
+|    loss                 | 16.2         |
+|    max_step             | 0            |
+|    n_updates            | 740          |
+|    out_of_road          | 0.937        |
+|    policy_gradient_loss | -0.00181     |
+|    route_completion     | 0.285        |
+|    std                  | 0.799        |
+|    total_cost           | 8.25         |
+|    value_loss           | 41.2         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | 104      |
+| time/              |          |
+|    fps             | 436      |
+|    iterations      | 38       |
+|    time_elapsed    | 445      |
+|    total_timesteps | 194560   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 280          |
+|    ep_rew_mean          | 113          |
+| time/                   |              |
+|    fps                  | 440          |
+|    iterations           | 39           |
+|    time_elapsed         | 453          |
+|    total_timesteps      | 199680       |
+| train/                  |              |
+|    approx_kl            | 0.0009989513 |
+|    clip_fraction        | 0.0642       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.38        |
+|    explained_variance   | 0.0574       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 16           |
+|    n_updates            | 760          |
+|    policy_gradient_loss | -0.00371     |
+|    std                  | 0.797        |
+|    value_loss           | 45.2         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.02         |
+|    crash                | 0.19         |
+|    max_step             | 0            |
+|    mean_ep_length       | 72           |
+|    mean_reward          | 61.7         |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.98         |
+|    raw_action           | 0.39896098   |
+|    route_completion     | 0.265        |
+|    success_rate         | 0            |
+|    total_cost           | 9.36         |
+| time/                   |              |
+|    total_timesteps      | 200000       |
+| train/                  |              |
+|    approx_kl            | 0.0013469597 |
+|    arrive_dest          | 0.06         |
+|    clip_fraction        | 0.0835       |
+|    clip_range           | 0.1          |
+|    crash                | 0.19         |
+|    entropy_loss         | -2.38        |
+|    explained_variance   | 0.121        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 17           |
+|    max_step             | 0            |
+|    n_updates            | 780          |
+|    out_of_road          | 0.94         |
+|    policy_gradient_loss | -0.00122     |
+|    route_completion     | 0.284        |
+|    std                  | 0.796        |
+|    total_cost           | 8.11         |
+|    value_loss           | 34.7         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 270      |
+|    ep_rew_mean     | 115      |
+| time/              |          |
+|    fps             | 441      |
+|    iterations      | 40       |
+|    time_elapsed    | 464      |
+|    total_timesteps | 204800   |
+---------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 290           |
+|    ep_rew_mean          | 122           |
+| time/                   |               |
+|    fps                  | 445           |
+|    iterations           | 41            |
+|    time_elapsed         | 471           |
+|    total_timesteps      | 209920        |
+| train/                  |               |
+|    approx_kl            | 0.00046408494 |
+|    clip_fraction        | 0.0495        |
+|    clip_range           | 0.1           |
+|    entropy_loss         | -2.38         |
+|    explained_variance   | 0.0568        |
+|    learning_rate        | 5e-05         |
+|    loss                 | 25.7          |
+|    n_updates            | 800           |
+|    policy_gradient_loss | -0.000607     |
+|    std                  | 0.793         |
+|    value_loss           | 49.4          |
+-------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.019        |
+|    crash                | 0.181        |
+|    max_step             | 0            |
+|    mean_ep_length       | 142          |
+|    mean_reward          | 147          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.981        |
+|    raw_action           | 0.40380833   |
+|    route_completion     | 0.273        |
+|    success_rate         | 0            |
+|    total_cost           | 9.87         |
+| time/                   |              |
+|    total_timesteps      | 210000       |
+| train/                  |              |
+|    approx_kl            | 0.0011692002 |
+|    arrive_dest          | 0.0571       |
+|    clip_fraction        | 0.0652       |
+|    clip_range           | 0.1          |
+|    crash                | 0.19         |
+|    entropy_loss         | -2.37        |
+|    explained_variance   | 0.0655       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 22.8         |
+|    max_step             | 0            |
+|    n_updates            | 820          |
+|    out_of_road          | 0.943        |
+|    policy_gradient_loss | -0.00116     |
+|    route_completion     | 0.283        |
+|    std                  | 0.791        |
+|    total_cost           | 7.77         |
+|    value_loss           | 40.1         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 275      |
+|    ep_rew_mean     | 125      |
+| time/              |          |
+|    fps             | 442      |
+|    iterations      | 42       |
+|    time_elapsed    | 485      |
+|    total_timesteps | 215040   |
+---------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0182       |
+|    crash                | 0.2          |
+|    max_step             | 0            |
+|    mean_ep_length       | 118          |
+|    mean_reward          | 144          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.982        |
+|    raw_action           | 0.4120159    |
+|    route_completion     | 0.279        |
+|    success_rate         | 0.1          |
+|    total_cost           | 9.73         |
+| time/                   |              |
+|    total_timesteps      | 220000       |
+| train/                  |              |
+|    approx_kl            | 0.0016983149 |
+|    arrive_dest          | 0.0636       |
+|    clip_fraction        | 0.0727       |
+|    clip_range           | 0.1          |
+|    crash                | 0.191        |
+|    entropy_loss         | -2.36        |
+|    explained_variance   | 0.153        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 28.6         |
+|    max_step             | 0            |
+|    n_updates            | 840          |
+|    out_of_road          | 0.936        |
+|    policy_gradient_loss | -0.00203     |
+|    route_completion     | 0.294        |
+|    std                  | 0.787        |
+|    total_cost           | 8.35         |
+|    value_loss           | 62.7         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 295      |
+|    ep_rew_mean     | 136      |
+| time/              |          |
+|    fps             | 439      |
+|    iterations      | 43       |
+|    time_elapsed    | 500      |
+|    total_timesteps | 220160   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 282          |
+|    ep_rew_mean          | 135          |
+| time/                   |              |
+|    fps                  | 443          |
+|    iterations           | 44           |
+|    time_elapsed         | 508          |
+|    total_timesteps      | 225280       |
+| train/                  |              |
+|    approx_kl            | 0.0015621395 |
+|    clip_fraction        | 0.0524       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.35        |
+|    explained_variance   | 0.265        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 22.5         |
+|    n_updates            | 860          |
+|    policy_gradient_loss | -0.00191     |
+|    std                  | 0.783        |
+|    value_loss           | 47.8         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0174       |
+|    crash                | 0.217        |
+|    max_step             | 0            |
+|    mean_ep_length       | 136          |
+|    mean_reward          | 139          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.983        |
+|    raw_action           | 0.4187155    |
+|    route_completion     | 0.287        |
+|    success_rate         | 0.1          |
+|    total_cost           | 10.1         |
+| time/                   |              |
+|    total_timesteps      | 230000       |
+| train/                  |              |
+|    approx_kl            | 0.0023547679 |
+|    arrive_dest          | 0.0696       |
+|    clip_fraction        | 0.129        |
+|    clip_range           | 0.1          |
+|    crash                | 0.191        |
+|    entropy_loss         | -2.34        |
+|    explained_variance   | 0.0795       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 18.6         |
+|    max_step             | 0            |
+|    n_updates            | 880          |
+|    out_of_road          | 0.93         |
+|    policy_gradient_loss | -0.00247     |
+|    route_completion     | 0.304        |
+|    std                  | 0.78         |
+|    total_cost           | 10.9         |
+|    value_loss           | 56.4         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 292      |
+|    ep_rew_mean     | 146      |
+| time/              |          |
+|    fps             | 437      |
+|    iterations      | 45       |
+|    time_elapsed    | 526      |
+|    total_timesteps | 230400   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 313          |
+|    ep_rew_mean          | 159          |
+| time/                   |              |
+|    fps                  | 441          |
+|    iterations           | 46           |
+|    time_elapsed         | 533          |
+|    total_timesteps      | 235520       |
+| train/                  |              |
+|    approx_kl            | 0.0035084176 |
+|    clip_fraction        | 0.0512       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.34        |
+|    explained_variance   | 0.244        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 26.7         |
+|    n_updates            | 900          |
+|    policy_gradient_loss | -0.000625    |
+|    std                  | 0.778        |
+|    value_loss           | 44.6         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0167       |
+|    crash                | 0.217        |
+|    max_step             | 0            |
+|    mean_ep_length       | 87           |
+|    mean_reward          | 101          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.983        |
+|    raw_action           | 0.42448303   |
+|    route_completion     | 0.288        |
+|    success_rate         | 0            |
+|    total_cost           | 9.7          |
+| time/                   |              |
+|    total_timesteps      | 240000       |
+| train/                  |              |
+|    approx_kl            | 0.0011006705 |
+|    arrive_dest          | 0.0667       |
+|    clip_fraction        | 0.0568       |
+|    clip_range           | 0.1          |
+|    crash                | 0.183        |
+|    entropy_loss         | -2.33        |
+|    explained_variance   | 0.0533       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 25.5         |
+|    max_step             | 0            |
+|    n_updates            | 920          |
+|    out_of_road          | 0.933        |
+|    policy_gradient_loss | -0.00164     |
+|    route_completion     | 0.312        |
+|    std                  | 0.776        |
+|    total_cost           | 11.1         |
+|    value_loss           | 49.5         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 314      |
+|    ep_rew_mean     | 167      |
+| time/              |          |
+|    fps             | 439      |
+|    iterations      | 47       |
+|    time_elapsed    | 547      |
+|    total_timesteps | 240640   |
+---------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 324           |
+|    ep_rew_mean          | 173           |
+| time/                   |               |
+|    fps                  | 443           |
+|    iterations           | 48            |
+|    time_elapsed         | 554           |
+|    total_timesteps      | 245760        |
+| train/                  |               |
+|    approx_kl            | 0.00095824304 |
+|    clip_fraction        | 0.058         |
+|    clip_range           | 0.1           |
+|    entropy_loss         | -2.33         |
+|    explained_variance   | 0.0818        |
+|    learning_rate        | 5e-05         |
+|    loss                 | 24.4          |
+|    n_updates            | 940           |
+|    policy_gradient_loss | -0.000686     |
+|    std                  | 0.774         |
+|    value_loss           | 53.5          |
+-------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.016        |
+|    crash                | 0.208        |
+|    max_step             | 0            |
+|    mean_ep_length       | 100          |
+|    mean_reward          | 106          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.984        |
+|    raw_action           | 0.42663527   |
+|    route_completion     | 0.288        |
+|    success_rate         | 0.1          |
+|    total_cost           | 9.52         |
+| time/                   |              |
+|    total_timesteps      | 250000       |
+| train/                  |              |
+|    approx_kl            | 0.0020640378 |
+|    arrive_dest          | 0.072        |
+|    clip_fraction        | 0.0682       |
+|    clip_range           | 0.1          |
+|    crash                | 0.176        |
+|    entropy_loss         | -2.32        |
+|    explained_variance   | 0.0174       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 20.4         |
+|    max_step             | 0            |
+|    n_updates            | 960          |
+|    out_of_road          | 0.928        |
+|    policy_gradient_loss | -0.00161     |
+|    route_completion     | 0.323        |
+|    std                  | 0.772        |
+|    total_cost           | 10.9         |
+|    value_loss           | 60.1         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 334      |
+|    ep_rew_mean     | 185      |
+| time/              |          |
+|    fps             | 442      |
+|    iterations      | 49       |
+|    time_elapsed    | 567      |
+|    total_timesteps | 250880   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 347          |
+|    ep_rew_mean          | 197          |
+| time/                   |              |
+|    fps                  | 445          |
+|    iterations           | 50           |
+|    time_elapsed         | 574          |
+|    total_timesteps      | 256000       |
+| train/                  |              |
+|    approx_kl            | 0.0019356398 |
+|    clip_fraction        | 0.0862       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.31        |
+|    explained_variance   | 0.0075       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 30.4         |
+|    n_updates            | 980          |
+|    policy_gradient_loss | -0.00211     |
+|    std                  | 0.766        |
+|    value_loss           | 73.8         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0231       |
+|    crash                | 0.215        |
+|    max_step             | 0            |
+|    mean_ep_length       | 129          |
+|    mean_reward          | 130          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.977        |
+|    raw_action           | 0.4311293    |
+|    route_completion     | 0.294        |
+|    success_rate         | 0.1          |
+|    total_cost           | 9.65         |
+| time/                   |              |
+|    total_timesteps      | 260000       |
+| train/                  |              |
+|    approx_kl            | 0.0008125192 |
+|    arrive_dest          | 0.0692       |
+|    clip_fraction        | 0.0734       |
+|    clip_range           | 0.1          |
+|    crash                | 0.177        |
+|    entropy_loss         | -2.3         |
+|    explained_variance   | 0.00767      |
+|    learning_rate        | 5e-05        |
+|    loss                 | 33.5         |
+|    max_step             | 0            |
+|    n_updates            | 1000         |
+|    out_of_road          | 0.931        |
+|    policy_gradient_loss | -0.000853    |
+|    route_completion     | 0.326        |
+|    std                  | 0.766        |
+|    total_cost           | 10.9         |
+|    value_loss           | 69.9         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 334      |
+|    ep_rew_mean     | 193      |
+| time/              |          |
+|    fps             | 445      |
+|    iterations      | 51       |
+|    time_elapsed    | 585      |
+|    total_timesteps | 261120   |
+---------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 334          |
+|    ep_rew_mean          | 196          |
+| time/                   |              |
+|    fps                  | 449          |
+|    iterations           | 52           |
+|    time_elapsed         | 592          |
+|    total_timesteps      | 266240       |
+| train/                  |              |
+|    approx_kl            | 0.0017060231 |
+|    clip_fraction        | 0.0828       |
+|    clip_range           | 0.1          |
+|    entropy_loss         | -2.3         |
+|    explained_variance   | -0.00725     |
+|    learning_rate        | 5e-05        |
+|    loss                 | 18.9         |
+|    n_updates            | 1020         |
+|    policy_gradient_loss | -0.00224     |
+|    std                  | 0.759        |
+|    value_loss           | 64.8         |
+------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0222       |
+|    crash                | 0.215        |
+|    max_step             | 0            |
+|    mean_ep_length       | 154          |
+|    mean_reward          | 129          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.978        |
+|    raw_action           | 0.43287018   |
+|    route_completion     | 0.3          |
+|    success_rate         | 0            |
+|    total_cost           | 10.3         |
+| time/                   |              |
+|    total_timesteps      | 270000       |
+| train/                  |              |
+|    approx_kl            | 0.0011426291 |
+|    arrive_dest          | 0.0667       |
+|    clip_fraction        | 0.0646       |
+|    clip_range           | 0.1          |
+|    crash                | 0.17         |
+|    entropy_loss         | -2.28        |
+|    explained_variance   | 0.105        |
+|    learning_rate        | 5e-05        |
+|    loss                 | 21.5         |
+|    max_step             | 0            |
+|    n_updates            | 1040         |
+|    out_of_road          | 0.933        |
+|    policy_gradient_loss | -0.00161     |
+|    route_completion     | 0.326        |
+|    std                  | 0.756        |
+|    total_cost           | 11.4         |
+|    value_loss           | 57           |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 351      |
+|    ep_rew_mean     | 209      |
+| time/              |          |
+|    fps             | 445      |
+|    iterations      | 53       |
+|    time_elapsed    | 608      |
+|    total_timesteps | 271360   |
+---------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 352        |
+|    ep_rew_mean          | 209        |
+| time/                   |            |
+|    fps                  | 448        |
+|    iterations           | 54         |
+|    time_elapsed         | 615        |
+|    total_timesteps      | 276480     |
+| train/                  |            |
+|    approx_kl            | 0.00432624 |
+|    clip_fraction        | 0.078      |
+|    clip_range           | 0.1        |
+|    entropy_loss         | -2.27      |
+|    explained_variance   | 0.0607     |
+|    learning_rate        | 5e-05      |
+|    loss                 | 29.3       |
+|    n_updates            | 1060       |
+|    policy_gradient_loss | -0.00164   |
+|    std                  | 0.753      |
+|    value_loss           | 73.3       |
+----------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    arrive_dest          | 0.0286       |
+|    crash                | 0.221        |
+|    max_step             | 0            |
+|    mean_ep_length       | 142          |
+|    mean_reward          | 174          |
+|    num_episodes         | 5            |
+|    out_of_road          | 0.971        |
+|    raw_action           | 0.43494353   |
+|    route_completion     | 0.31         |
+|    success_rate         | 0.1          |
+|    total_cost           | 10.1         |
+| time/                   |              |
+|    total_timesteps      | 280000       |
+| train/                  |              |
+|    approx_kl            | 0.0029561778 |
+|    arrive_dest          | 0.0643       |
+|    clip_fraction        | 0.0562       |
+|    clip_range           | 0.1          |
+|    crash                | 0.186        |
+|    entropy_loss         | -2.27        |
+|    explained_variance   | 0.0614       |
+|    learning_rate        | 5e-05        |
+|    loss                 | 29.7         |
+|    max_step             | 0            |
+|    n_updates            | 1080         |
+|    out_of_road          | 0.936        |
+|    policy_gradient_loss | -0.00222     |
+|    route_completion     | 0.329        |
+|    std                  | 0.75         |
+|    total_cost           | 11.4         |
+|    value_loss           | 67.6         |
+------------------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 338      |
+|    ep_rew_mean     | 203      |
+| time/              |          |
+|    fps             | 447      |
+|    iterations      | 55       |
+|    time_elapsed    | 629      |
+|    total_timesteps | 281600   |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 340         |
+|    ep_rew_mean          | 206         |
+| time/                   |             |
+|    fps                  | 450         |
+|    iterations           | 56          |
+|    time_elapsed         | 636         |
+|    total_timesteps      | 286720      |
+| train/                  |             |
+|    approx_kl            | 0.001574765 |
+|    clip_fraction        | 0.117       |
+|    clip_range           | 0.1         |
+|    entropy_loss         | -2.26       |
+|    explained_variance   | 0.000266    |
+|    learning_rate        | 5e-05       |
+|    loss                 | 40.1        |
+|    n_updates            | 1100        |
+|    policy_gradient_loss | -0.000614   |
+|    std                  | 0.749       |
+|    value_loss           | 74.9        |
+-----------------------------------------

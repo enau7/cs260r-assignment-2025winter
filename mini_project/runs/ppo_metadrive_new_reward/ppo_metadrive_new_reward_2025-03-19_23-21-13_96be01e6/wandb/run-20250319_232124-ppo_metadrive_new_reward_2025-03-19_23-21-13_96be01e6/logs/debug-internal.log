@@ -1,0 +1,25 @@
+{"time":"2025-03-19T23:21:24.3242743-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_new_reward\\ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6\\wandb\\run-20250319_232124-ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6\\logs\\debug-core.log"}
+{"time":"2025-03-19T23:21:24.4348141-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-19T23:21:24.4353142-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-19T23:21:24.4353142-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-19T23:21:24.4353142-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-19T23:21:24.4353142-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-19T23:21:24.6656176-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T23:21:24.8720379-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:21:24.8776212-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:21:25.9126761-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:21:25.9186797-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:21:25.9197918-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:21:25.9251986-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:21:36.429198-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-20T00:23:50.5385572-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-20T00:23:50.5839623-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-20T00:23:50.6266757-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T00:23:50.636177-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T00:23:51.676169-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading runs\\ppo_metadrive_new_reward\\ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6\\ppo_metadrive_new_reward_1\\events.out.tfevents.1742451686.enaut-PC.11736.0","runtime_seconds":0.3509012,"progress":"416.0KB/467.2KB"},{"desc":"uploading model.zip","runtime_seconds":0.3345881,"progress":"336.0KB/543.9KB"}],"total_operations":2}}
+{"time":"2025-03-20T00:23:52.022064-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T00:23:52.239766-07:00","level":"INFO","msg":"stream: closing","id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-20T00:23:52.239766-07:00","level":"INFO","msg":"handler: closed","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-20T00:23:52.239766-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-20T00:23:52.239766-07:00","level":"INFO","msg":"sender: closed","stream_id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}
+{"time":"2025-03-20T00:23:52.2407666-07:00","level":"INFO","msg":"stream: closed","id":"ppo_metadrive_new_reward_2025-03-19_23-21-13_96be01e6"}

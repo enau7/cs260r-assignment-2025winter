@@ -1,0 +1,19 @@
+{"time":"2025-03-20T00:28:29.0936082-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_new_reward_5000\\ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed\\wandb\\run-20250320_002829-ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed\\logs\\debug-core.log"}
+{"time":"2025-03-20T00:28:29.3498217-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed"}
+{"time":"2025-03-20T00:28:29.3498217-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed"}
+{"time":"2025-03-20T00:28:29.3498217-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed"}
+{"time":"2025-03-20T00:28:29.3498217-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed"}
+{"time":"2025-03-20T00:28:29.3498217-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed"}
+{"time":"2025-03-20T00:28:29.6488473-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T00:28:29.9110558-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-20T00:28:29.916909-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-20T00:28:31.0315428-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-20T00:28:31.0373407-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-20T00:28:31.0387427-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-20T00:28:31.0461869-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-20T00:28:41.5876544-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-20T00:30:09.743263-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.180:63648->35.186.228.49:443: wsarecv: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-20T00:30:11.2968276-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/coltonrowe-ucla/cs260r/ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed/file_stream\": dial tcp: lookup api.wandb.ai: getaddrinfow: The requested name is valid, but no data of the requested type was found."}
+{"time":"2025-03-20T00:30:11.8516452-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-20T00:30:13.4301582-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/coltonrowe-ucla/cs260r/ppo_metadrive_new_reward_5000_2025-03-20_00-28-17_31ce23ed/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-20T00:39:17.3260244-07:00","level":"INFO","msg":"Pausing system monitor"}

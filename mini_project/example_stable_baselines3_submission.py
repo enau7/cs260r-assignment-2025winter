@@ -7,7 +7,7 @@ import torch
 from stable_baselines3.common.save_util import load_from_zip_file
 
 if __name__ == '__main__':
-    ckpt = "runs/ppo_metadrive/ppo_metadrive_2025-02-20_20-34-09_ec54bb59/models/rl_model_320000_steps"
+    ckpt = "runs/ppo_metadrive/ppo_metadrive_2025-02-20_20-34-09_ec54bb59/models/rl_model_320000_steps.zip"
     data, params, pytorch_variables = load_from_zip_file(ckpt)
 
     # Just make a customized dict to store data we want to use later.

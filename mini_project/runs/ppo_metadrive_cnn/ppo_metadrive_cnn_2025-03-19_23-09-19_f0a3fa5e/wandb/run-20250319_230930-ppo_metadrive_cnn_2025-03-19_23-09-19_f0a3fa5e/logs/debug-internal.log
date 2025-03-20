@@ -1,0 +1,14 @@
+{"time":"2025-03-19T23:09:30.3462644-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_cnn\\ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e\\wandb\\run-20250319_230930-ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e\\logs\\debug-core.log"}
+{"time":"2025-03-19T23:09:30.4579125-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e"}
+{"time":"2025-03-19T23:09:30.4579125-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e"}
+{"time":"2025-03-19T23:09:30.4579125-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e"}
+{"time":"2025-03-19T23:09:30.4579125-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e"}
+{"time":"2025-03-19T23:09:30.4584098-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_cnn_2025-03-19_23-09-19_f0a3fa5e"}
+{"time":"2025-03-19T23:09:30.7951977-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T23:09:30.9955923-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:09:31.0010737-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:09:31.3138667-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:12:10.800263-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:12:10.8047479-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T23:12:11.671446-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T23:12:11.6770128-07:00","level":"INFO","msg":"Pausing system monitor"}

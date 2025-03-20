@@ -1,0 +1,48 @@
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_setup.py:_flush():67] Configure stats pid to 23840
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Colton\.config\wandb\settings
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_setup.py:_flush():67] Loading settings from C:\Users\Colton\Documents\GitHub\cs260r-assignment-2025winter\mini_project\wandb\settings
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-19 20:52:08,856 INFO    MainThread:23840 [wandb_init.py:setup_run_log_directory():647] Logging user logs to runs\ppo_metadrive_final_testing\ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17\wandb\run-20250319_205208-ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17\logs\debug.log
+2025-03-19 20:52:08,857 INFO    MainThread:23840 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to runs\ppo_metadrive_final_testing\ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17\wandb\run-20250319_205208-ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17\logs\debug-internal.log
+2025-03-19 20:52:08,857 INFO    MainThread:23840 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000287E23DC290>
+2025-03-19 20:52:08,861 INFO    MainThread:23840 [wandb_init.py:init():761] calling init triggers
+2025-03-19 20:52:08,861 INFO    MainThread:23840 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-19 20:52:08,861 INFO    MainThread:23840 [wandb_init.py:init():784] starting backend
+2025-03-19 20:52:08,861 INFO    MainThread:23840 [wandb_init.py:init():788] sending inform_init request
+2025-03-19 20:52:08,876 INFO    MainThread:23840 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-19 20:52:08,876 INFO    MainThread:23840 [wandb_init.py:init():798] backend started and connected
+2025-03-19 20:52:08,877 INFO    MainThread:23840 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-19 20:52:08,879 INFO    MainThread:23840 [wandb_init.py:init():891] updated telemetry
+2025-03-19 20:52:08,926 INFO    MainThread:23840 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-19 20:52:09,297 INFO    MainThread:23840 [wandb_init.py:init():990] starting run threads in backend
+2025-03-19 20:52:09,511 INFO    MainThread:23840 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-19 20:52:09,511 INFO    MainThread:23840 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-19 20:52:09,513 INFO    MainThread:23840 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-19 20:52:09,513 INFO    MainThread:23840 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-19 20:52:09,517 INFO    MainThread:23840 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-19 20:52:09,517 INFO    MainThread:23840 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-19 20:52:09,517 INFO    MainThread:23840 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-19 20:52:09,524 INFO    MainThread:23840 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-19 20:52:10,748 INFO    MainThread:23840 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-19 20:52:10,748 INFO    MainThread:23840 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-19 20:52:10,754 INFO    MainThread:23840 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-19 20:52:10,755 INFO    MainThread:23840 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-19 20:52:10,755 INFO    MainThread:23840 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-19 20:52:10,760 INFO    MainThread:23840 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-19 20:52:11,278 INFO    MainThread:23840 [wandb_run.py:_tensorboard_callback():1449] tensorboard callback: runs\ppo_metadrive_final_testing\ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17\ppo_metadrive_final_testing_1, True
+2025-03-19 20:52:11,283 INFO    MainThread:23840 [wandb_run.py:_config_callback():1261] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 2, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 2000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1742442730761395700, 'learning_rate': 5e-05, 'tensorboard_log': 'runs\\ppo_metadrive_final_testing\\ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17', '_last_obs': '[[0.29166666 0.29166666 0.5        ... 1.         1.         1.        ]\n [0.09722222 0.4861111  0.5        ... 1.         1.         1.        ]\n [0.29166666 0.29166666 0.5        ... 1.         1.         1.        ]\n ...\n [0.4861111  0.09722222 0.5        ... 1.         1.         1.        ]\n [0.4861111  0.09722222 0.5        ... 1.         1.         1.        ]\n [0.09722222 0.4861111  0.5        ... 1.         1.         1.        ]]', '_last_episode_starts': '[ True  True  True  True  True  True  True  True  True  True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.subproc_vec_env.SubprocVecEnv object at 0x00000287A48E4390>', '_vec_normalize_env': 'None', 'observation_space': 'Box(-0.0, 1.0, (259,), float32)', 'action_space': 'Box(-1.0, 1.0, (2,), float32)', 'n_envs': 10, 'n_steps': 512, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 10.0, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 256, 'n_epochs': 20, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x00000287E62C11C0>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x00000287D8285D00>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x00000287E1EDFB10>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=259, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=259, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=2, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x00000287E64DEDD0>'}
+2025-03-19 21:53:37,654 INFO    MainThread:23840 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-19 21:53:37,660 INFO    MainThread:23840 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-19 21:53:37,699 INFO    MainThread:23840 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-19 21:53:37,710 INFO    MainThread:23840 [wandb_run.py:_finish():2112] finishing run coltonrowe-ucla/cs260r/ppo_metadrive_final_testing_2025-03-19_20-51-58_42b6ed17
+2025-03-19 21:53:37,715 INFO    MainThread:23840 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-19 21:53:37,715 INFO    MainThread:23840 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-19 21:53:37,716 INFO    MainThread:23840 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-19 21:53:37,719 INFO    MainThread:23840 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-19 21:53:37,722 INFO    MainThread:23840 [wandb_run.py:_restore():2322] restore
+2025-03-19 21:53:37,723 INFO    MainThread:23840 [wandb_run.py:_restore():2328] restore done
+2025-03-19 21:53:39,053 INFO    MainThread:23840 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-19 21:53:39,055 INFO    MainThread:23840 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-19 21:53:39,062 INFO    MainThread:23840 [wandb_run.py:_footer_sync_info():3917] logging synced files

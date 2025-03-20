@@ -1,0 +1,25 @@
+{"time":"2025-03-19T22:02:40.2591866-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"runs\\ppo_metadrive_final_testing\\ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1\\wandb\\run-20250319_220240-ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1\\logs\\debug-core.log"}
+{"time":"2025-03-19T22:02:40.6214164-07:00","level":"INFO","msg":"created new stream","id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:02:40.6219164-07:00","level":"INFO","msg":"stream: started","id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:02:40.6219164-07:00","level":"INFO","msg":"handler: started","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:02:40.6219164-07:00","level":"INFO","msg":"sender: started","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:02:40.6219164-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:02:40.858742-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T22:02:41.116621-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T22:02:41.1224119-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T22:02:41.1354441-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T22:02:41.1417897-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T22:02:41.1430182-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T22:02:41.1490235-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T22:02:51.6691057-07:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-19T22:23:34.1841296-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-19T22:23:36.9334576-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-19T22:23:36.9431557-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T22:23:36.9543671-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T22:23:37.9780946-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.1663403,"progress":"528.0KB/543.9KB"},{"desc":"uploading runs\\ppo_metadrive_final_testing\\ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1\\ppo_metadrive_final_testing_1\\events.out.tfevents.1742446961.enaut-PC.23840.1","runtime_seconds":0.1663403,"progress":"133.2KB/133.2KB"}],"total_operations":2}}
+{"time":"2025-03-19T22:23:38.3263094-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T22:23:38.5139446-07:00","level":"INFO","msg":"stream: closing","id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:23:38.5139446-07:00","level":"INFO","msg":"handler: closed","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:23:38.5144449-07:00","level":"INFO","msg":"sender: closed","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:23:38.5139446-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}
+{"time":"2025-03-19T22:23:38.5144449-07:00","level":"INFO","msg":"stream: closed","id":"ppo_metadrive_final_testing_2025-03-19_22-02-30_618a45c1"}

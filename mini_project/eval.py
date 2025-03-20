@@ -100,7 +100,7 @@ if __name__ == '__main__':
     # We will use the specified agent.
     agent_name = args.agent_name
     if agent_name not in policy_class_map:
-        raise ValueError(f"Agent {agent_name} not found in the agents folder {policy_map.keys()}!")
+        raise ValueError(f"Agent {agent_name} not found in the agents folder {policy_class_map.keys()}!")
     policy_class = policy_class_map[agent_name]
     policy = policy_class()
 
